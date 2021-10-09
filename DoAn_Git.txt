@@ -1,0 +1,18 @@
+----LOGIN
+git config --global user.email "ctyuan41@gmail.com"
+git config --global user.name "ChauTuan41"
+
+---PUSH
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/chautuan41/Doan-PHP
+git remote -v
+git push -u origin master
+
+----CLEAR
+rmdir .git 
+
+---PULL
+git clone https://github.com/chautuan41/Doan-PHP.git
+
